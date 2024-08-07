@@ -4,7 +4,7 @@
 export default function Button() {
 
     function funcion() {
-        console.log("Hola mundo")
+        console.log("Buenasss")
     }
 
     return(
@@ -17,9 +17,10 @@ export default function Button() {
 
 //children: siempre existe, el hijo de la etiwueta html
 // Las demás uno les asigna el nombre
+
 export default function Button(props) {
 
     return(
-        <button onClick={props.onClick}>Registrarme</button>
+        <button type="button" onClick={props.onClick}>Registrarme</button>
     )
 }
